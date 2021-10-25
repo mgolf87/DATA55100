@@ -36,8 +36,8 @@ After iVAT & FCM have been implemented we then need to validate the clustering t
 
 <br />
 
-### Week 7 Assignment - Pre-Clustering: 
-#### DATA55100_PCA.m; DATA55100_LDA.m
+### Week 7 Assignment - Self-Organizing Maps (SOMs): 
+#### DATA55100_Assignment_7.m
 Principal Components Analysis (PCA)
 
 <br />
