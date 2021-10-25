@@ -16,9 +16,9 @@ Clustering data reduced by PCA to 2-Dimensions (2D) and the same data reduced by
 <br />
 
 ### Week 4 Assignment - Pre-Clustering: 
-#### iVAT.m; pdist2.m; VAT.m; LoadDataSets.m
-##### (requires
-Principal Components Analysis (PCA)
+#### iVAT.m; VAT.m; pdist2.m; LoadDataSets.m
+##### (requires datasets.zip)
+Firstly, during the pre-clustering stage we want to assess the substructure of the data evaluating whether there’s an inherent tendency to cluster. We can think of clustering tendency as the potentiality of the data to be clustered, and generally non-random data which may carry patterns can be clustered, whereas random data cannot be clustered. The Visual Assessment of Clustering Tendency (VAT) algorithm functions to produce a dissimilarity matrix of pairwise distances between data points (via pdist2 function). This dissimilarity matrix is then reorganized into an ordered dissimilarity matrix with similar objects close together (clusters). An intensity image is then created from this ordered dissimilarity matrix where 0 intensity is represented by black checkers and 1 intensity is represented by white checkers. VAT takes checkered intensity images and transforms them into ordered intensity images where clusters are observed as squares of similar intensities. Other methods also exist which can be performed during the pre-clustering stage. As we discussed, the VAT algorithm creates a matrix of the distance distributions calculated from pairwise distances between data points, orders it, and then transforms it into an intensity image, iVAT functions the same except that it scales the intensity to produce clearer boundaries that are easier to read. Another alternative method is to plot a spatial histogram of the data points to visually highlight any inherent clusters compared against a histogram of a randomly generated distribution. The Hopkins statistics is another method for evaluating the cluster-ability of the data by sampling the dataset via probability for clusters and evaluating the difference in points between the original and the sampled dataset. Having a Hopkins statistic close to 0 indicates a high clustering potential and having a Hopkins statistic close to 1 indicates randomly distributed data.
 
 <br />
 
