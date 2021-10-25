@@ -16,7 +16,8 @@ Clustering data reduced by PCA to 2-Dimensions (2D) and the same data reduced by
 <br />
 
 ### Week 4 Assignment - Pre-Clustering: 
-#### DATA55100_PCA.m; DATA55100_LDA.m
+#### iVAT.m; pdist2.m; VAT.m; LoadDataSets.m
+##### (requires
 Principal Components Analysis (PCA)
 
 <br />
