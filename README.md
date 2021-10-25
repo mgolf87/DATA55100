@@ -15,7 +15,25 @@ Clustering data reduced by PCA to 2-Dimensions (2D) and the same data reduced by
 
 <br />
 
-### Week 4 Assignment - Dimensionality Reduction: 
+### Week 4 Assignment - Pre-Clustering: 
+#### DATA55100_PCA.m; DATA55100_LDA.m
+Principal Components Analysis (PCA)
+
+<br />
+
+### Week 5 Assignment - Pre-Clustering: 
+#### DATA55100_PCA.m; DATA55100_LDA.m
+Principal Components Analysis (PCA)
+
+<br />
+
+### Week 6 Assignment - Pre-Clustering: 
+#### DATA55100_PCA.m; DATA55100_LDA.m
+Principal Components Analysis (PCA)
+
+<br />
+
+### Week 7 Assignment - Pre-Clustering: 
 #### DATA55100_PCA.m; DATA55100_LDA.m
 Principal Components Analysis (PCA)
 
