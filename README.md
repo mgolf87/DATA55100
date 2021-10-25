@@ -9,7 +9,14 @@ Principal Components Analysis (PCA) and Linear Discriminate Analysis (LDA) are b
 
 <br />
 
-### Week 2 Assignment - Bayesian Decision Theory: 
+### Week 3 Assignment - Clustering: 
 #### MGolf_DATA55000_A2.ipynb 
-#### (requires mlclass.py)
 Perceptron, I
+
+<br />
+
+### Week 4 Assignment - Dimensionality Reduction: 
+#### DATA55100_PCA.m; DATA55100_LDA.m
+Principal Components Analysis (PCA)
+
+<br />
