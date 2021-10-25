@@ -22,9 +22,10 @@ Firstly, during the pre-clustering stage we want to assess the substructure of t
 
 <br />
 
-### Week 5 Assignment - Pre-Clustering: 
-#### DATA55100_PCA.m; DATA55100_LDA.m
-Principal Components Analysis (PCA)
+### Week 5 Assignment - Possibilistic-Clustering: 
+#### DATA55100_Assignment_5.m; iVAT.m
+##### (requires datasets.zip)
+Fuzzy c-means is an objective function based clustering method. This technique creates a membership matrix which relates the membership for each cluster of a sample – the degree the sample belongs to a cluster. The sum of the cluster memberships for a single sample sums to 1 where the cluster with the majority of this value indicates the best fit membership – if we allow fuzzy or soft partitions. However, hard partitions will produce 0’s and a single 1, which means the sample will belong to only 1 cluster. These partitions are determined by the value we set the ‘fuzzifier’ or Q at. For the fuzzy c-means algorithm implemented in MatLab the default value of the fuzzifier is 2. This results in softer partitions, and if we want hard partitions we should set Q to 1.1, as Q cannot equal 1 as the denominator for the exponent of the membership calculation will become 0. As we increase the fuzzifier past 2 we are generating softer and softer partitions, this changes the distribution of membership from 0 or 1 to values within this range. This is the fuzzy in fuzzy c-means. Fuzzy partitions are important for lots of real-world applications as membership is generally not binary. For example, gene functions are quite varied and genes involved in some functions may harbor many different functions as well, therefore having memberships to multiple functions works well for describing genes. Like the fuzzifier, clusters are also predetermined by the user. Generally, we perform clustering tendency algorithms like VAT before fuzzy c-means in order to determine how many clusters we should use for fuzzy c-means. Once these values have been entered and the algorithm is running, the goal of the algorithm is to minimize the objective function via minimizing the variance within clusters and maximizing the mean difference between clusters. This continually iterates, using a distance calculation method like Euclidean, Gustafson-Kessel, or Mahalanobis distance until convergence. Convergence means that the centroids don’t change when they are updated, indicating that the clusters and the points assigned to them are the best fit based on the given parameters of the fuzzifier and the number of clusters.
 
 <br />
 
